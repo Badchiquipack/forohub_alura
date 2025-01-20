@@ -50,4 +50,9 @@ public class TopicoController {
         topicoService.eliminarTopico(id);
         return ResponseEntity.noContent().build();
     }
+
+    @GetMapping("/{id}")
+    public ResponseEntity obtenerPorId(@PathVariable Long id){
+        return ResponseEntity.ok(topicoService.obtenerPorId(id));
+    }
 }

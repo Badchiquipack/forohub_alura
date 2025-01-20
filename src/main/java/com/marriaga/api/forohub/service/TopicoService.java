@@ -54,4 +54,13 @@ public class TopicoService {
         }
         topicoRepository.delete(topicoRepository.getReferenceById(id));
     }
+
+    public DatosRespuestaTopicoDTO obtenerPorId(Long id) {
+        if (!topicoRepository.existsById(id)){
+            throw new ValidacionException("El topico con el id proporcionado no existe");
+        }
+        var topico = topicoRepository.findById(id);
+
+    return new DatosRespuestaTopicoDTO(topico.get());
+    }
 }
