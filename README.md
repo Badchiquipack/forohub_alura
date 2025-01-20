@@ -1,6 +1,6 @@
 <h1 align="center">Foro Hub Alura</h1>
-<h2>Descripción del proyecto:</h3>
-<h3>Este proyecto forma parte del "Challenge Foro Hub" el cual es un contenido del programa de Oracle Next Education para aprender a programar.</h2>
+<h3>Descripción del proyecto:</h3>
+<h3>Este proyecto forma parte del "Challenge Foro Hub" el cual es un contenido del programa de Oracle Next Education para aprender a programar.</h3>
 <h2>🔨Funcionalidades del proyecto 🔨</h2>
 <h3>El Foro Hub consiste en una API Rest con seis endpoints, los cuales se describen a continuación:</h3>
 
